@@ -1,0 +1,70 @@
+Index: predictor.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from flask import Flask, request\r\nimport joblib\r\nimport numpy\r\n\r\nMODEL_PATH = 'mlmodels/mymodel.pkl'\r\nSCALER_X_PATH = 'mlmodels/scaler_x.pkl'\r\nSCALER_Y_PATH = 'mlmodels/scaler_y.pkl'\r\n\r\napp = Flask(__name__)\r\nmodel = joblib.load(MODEL_PATH)\r\nsc_x = joblib.load(SCALER_X_PATH)\r\nsc_y = joblib.load(SCALER_Y_PATH)\r\n\r\n@app.route('/predict_price', methods = ['GET'])\r\ndef predict():\r\n    args = request.args\r\n    open_plan = args.get('open_plan', default=-1, type=int)\r\n    rooms = args.get('rooms', default=-1, type=int)\r\n    area = args.get('area', default=-1, type=float)\r\n    renovation = args.get('renovation', default=-1, type=int)\r\n    living_area = args.get('living_area', default=-1, type=float)\r\n    floor = args.get('floor', default=-1, type=int)\r\n\r\n    MODEL_PATH = 'mlmodels/mymodel.pkl'\r\n    SCALER_X_PATH = 'mlmodels/scaler_x.pkl'\r\n    SCALER_Y_PATH = 'mlmodels/scaler_y.pkl'\r\n\r\n    app = Flask(__name__)\r\n    model = joblib.load(MODEL_PATH)\r\n    sc_x = joblib.load(SCALER_X_PATH)\r\n    sc_y = joblib.load(SCALER_Y_PATH)\r\n\r\n    @app.route('/predict_price', methods=['GET'])\r\n    def predict():\r\n        args = request.args\r\n        open_plan = args.get('open_plan', default=-1, type=int)\r\n        rooms = args.get('rooms', default=-1, type=int)\r\n        area = args.get('area', default=-1, type=float)\r\n        renovation = args.get('renovation', default=-1, type=int)\r\n        living_area = args.get('living_area', default=-1, type=float)\r\n        floor = args.get('floor', default=-1, type=int)\r\n\r\n        x = numpy.array([open_plan, rooms, area, renovation, living_area, floor])\r\n        result = model.predict(x)\r\n        result = sc_y.inverse_transform(result.reshape(1, -1))\r\n\r\n        return str(result[0][0])\r\n\r\n    if __name__ == '__main__':\r\n        app.run(debug=True, port=5444, host='0.0.0.0')\r\n\r\n    x = numpy.array([open_plan, rooms, area, renovation]).reshape(1,-1)\r\n    x = sc_x.transform(x)\r\n    result = model.predict(x)\r\n    result = sc_y.inverse_transform(result.reshape(1,-1))\r\n\r\n    return str(result[0][0])\r\n\r\n\r\nif __name__ == '__main__':\r\n    app.run(debug=True, port=5443, host='0.0.0.0')\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/predictor.py b/predictor.py
+--- a/predictor.py	(revision 454907b617a92527edd61a8cc4b30e0e1a214f89)
++++ b/predictor.py	(date 1685612384482)
+@@ -12,7 +12,9 @@
+ sc_y = joblib.load(SCALER_Y_PATH)
+ 
+ @app.route('/predict_price', methods = ['GET'])
+-def predict():
++def predict():git commit -m  requirments
++git commit -m  requirments
++
+     args = request.args
+     open_plan = args.get('open_plan', default=-1, type=int)
+     rooms = args.get('rooms', default=-1, type=int)
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d1a019f7-d69d-43a3-832c-700cfbb0e3a5\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Flask Main\" />\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2QBt36BTjP0tB6T7tgolS5SBPhS\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/myflask&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [\r\n      &quot;Perl&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\admin\\myflask\\mlmodels\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"myflask\" type=\"Python.FlaskServer\">\r\n      <module name=\"myflask\" />\r\n      <option name=\"target\" value=\"$PROJECT_DIR$/app.py\" />\r\n      <option name=\"targetType\" value=\"PATH\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d1a019f7-d69d-43a3-832c-700cfbb0e3a5\" name=\"Changes\" comment=\"\" />\r\n      <created>1684838599462</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684838599462</updated>\r\n      <workItem from=\"1684838659602\" duration=\"10542000\" />\r\n      <workItem from=\"1685610641951\" duration=\"1454000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 454907b617a92527edd61a8cc4b30e0e1a214f89)
++++ b/.idea/workspace.xml	(date 1685612467035)
+@@ -4,7 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="d1a019f7-d69d-43a3-832c-700cfbb0e3a5" name="Changes" comment="" />
++    <list default="true" id="d1a019f7-d69d-43a3-832c-700cfbb0e3a5" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/predictor.py" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -75,7 +78,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1684838599462</updated>
+       <workItem from="1684838659602" duration="10542000" />
+-      <workItem from="1685610641951" duration="1454000" />
++      <workItem from="1685610641951" duration="1806000" />
+     </task>
+     <servers />
+   </component>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 454907b617a92527edd61a8cc4b30e0e1a214f89)
++++ b/.idea/vcs.xml	(date 1685612327430)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/e2e" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file

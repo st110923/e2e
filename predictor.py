@@ -12,7 +12,9 @@ sc_x = joblib.load(SCALER_X_PATH)
 sc_y = joblib.load(SCALER_Y_PATH)
 
 @app.route('/predict_price', methods = ['GET'])
-def predict():
+def predict():git commit -m  requirments
+git commit -m  requirments
+
     args = request.args
     open_plan = args.get('open_plan', default=-1, type=int)
     rooms = args.get('rooms', default=-1, type=int)
