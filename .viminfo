@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1686137088,,"wq"
+|2,0,1686163962,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -28,40 +28,234 @@
 |3,1,36,0,1,0,1686137081,"q"
 
 # File marks:
-'0  10  0  ~/myflask/Dockerfile
-|4,48,10,0,1686137088,"~/myflask/Dockerfile"
-'1  14  0  ~/myflask/e2e/.gitignore
-|4,49,14,0,1686133968,"~/myflask/e2e/.gitignore"
-'2  30  0  ~/.gitignore
-|4,50,30,0,1686133964,"~/.gitignore"
+'0  13  0  ~/myflask/Dockerfile
+|4,48,13,0,1686163962,"~/myflask/Dockerfile"
+'1  1  0  ~/Dockerfile
+|4,49,1,0,1686163924,"~/Dockerfile"
+'2  7  17  ~/Dockerfile
+|4,50,7,17,1686163774,"~/Dockerfile"
+'3  7  17  ~/Dockerfile
+|4,51,7,17,1686163774,"~/Dockerfile"
+'4  1  0  ~/Dockerfile
+|4,52,1,0,1686162680,"~/Dockerfile"
+'5  1  0  ~/Dockerfile
+|4,53,1,0,1686162680,"~/Dockerfile"
+'6  1  0  ~/Dockerfile
+|4,54,1,0,1686162680,"~/Dockerfile"
+'7  13  0  ~/myflask/Dockerfile
+|4,55,13,0,1686141920,"~/myflask/Dockerfile"
+'8  3  0  ~/myflask/.gitignore
+|4,56,3,0,1686141870,"~/myflask/.gitignore"
+'9  1  0  ~/.gitignore
+|4,57,1,0,1686141797,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  13  0  ~/myflask/Dockerfile
+|4,39,13,0,1686163962,"~/myflask/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1686163924,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1686163924,"~/Dockerfile"
+-'  7  17  ~/Dockerfile
+|4,39,7,17,1686163774,"~/Dockerfile"
+-'  7  17  ~/Dockerfile
+|4,39,7,17,1686163774,"~/Dockerfile"
+-'  7  17  ~/Dockerfile
+|4,39,7,17,1686163774,"~/Dockerfile"
+-'  7  17  ~/Dockerfile
+|4,39,7,17,1686163774,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1686162680,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1686162680,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1686162680,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1686162680,"~/Dockerfile"
+-'  1  17  ~/Dockerfile
+|4,39,1,17,1686162587,"~/Dockerfile"
+-'  1  17  ~/Dockerfile
+|4,39,1,17,1686162587,"~/Dockerfile"
+-'  13  0  ~/myflask/Dockerfile
+|4,39,13,0,1686141920,"~/myflask/Dockerfile"
+-'  13  0  ~/myflask/Dockerfile
+|4,39,13,0,1686141920,"~/myflask/Dockerfile"
+-'  13  0  ~/myflask/Dockerfile
+|4,39,13,0,1686141920,"~/myflask/Dockerfile"
+-'  13  0  ~/myflask/Dockerfile
+|4,39,13,0,1686141920,"~/myflask/Dockerfile"
+-'  13  0  ~/myflask/Dockerfile
+|4,39,13,0,1686141920,"~/myflask/Dockerfile"
+-'  13  0  ~/myflask/Dockerfile
+|4,39,13,0,1686141920,"~/myflask/Dockerfile"
+-'  13  0  ~/myflask/Dockerfile
+|4,39,13,0,1686141920,"~/myflask/Dockerfile"
+-'  13  0  ~/myflask/Dockerfile
+|4,39,13,0,1686141920,"~/myflask/Dockerfile"
 -'  10  0  ~/myflask/Dockerfile
-|4,39,10,0,1686137088,"~/myflask/Dockerfile"
--'  1  0  ~/myflask/Dockerfile
-|4,39,1,0,1686136365,"~/myflask/Dockerfile"
--'  14  0  ~/myflask/e2e/.gitignore
-|4,39,14,0,1686133968,"~/myflask/e2e/.gitignore"
--'  14  0  ~/myflask/e2e/.gitignore
-|4,39,14,0,1686133968,"~/myflask/e2e/.gitignore"
--'  30  0  ~/.gitignore
-|4,39,30,0,1686133964,"~/.gitignore"
--'  30  0  ~/.gitignore
-|4,39,30,0,1686133964,"~/.gitignore"
--'  1  0  ~/myflask/e2e/.gitignore
-|4,39,1,0,1686132766,"~/myflask/e2e/.gitignore"
--'  1  0  ~/myflask/e2e/.gitignore
-|4,39,1,0,1686132766,"~/myflask/e2e/.gitignore"
+|4,39,10,0,1686141886,"~/myflask/Dockerfile"
+-'  10  0  ~/myflask/Dockerfile
+|4,39,10,0,1686141886,"~/myflask/Dockerfile"
+-'  10  0  ~/myflask/Dockerfile
+|4,39,10,0,1686141886,"~/myflask/Dockerfile"
+-'  10  0  ~/myflask/Dockerfile
+|4,39,10,0,1686141886,"~/myflask/Dockerfile"
+-'  10  0  ~/myflask/Dockerfile
+|4,39,10,0,1686141886,"~/myflask/Dockerfile"
+-'  10  0  ~/myflask/Dockerfile
+|4,39,10,0,1686141886,"~/myflask/Dockerfile"
+-'  10  0  ~/myflask/Dockerfile
+|4,39,10,0,1686141886,"~/myflask/Dockerfile"
+-'  10  0  ~/myflask/Dockerfile
+|4,39,10,0,1686141886,"~/myflask/Dockerfile"
+-'  10  0  ~/myflask/Dockerfile
+|4,39,10,0,1686141886,"~/myflask/Dockerfile"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  3  0  ~/myflask/.gitignore
+|4,39,3,0,1686141870,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
+-'  1  0  ~/myflask/.gitignore
+|4,39,1,0,1686141808,"~/myflask/.gitignore"
 -'  1  0  ~/.gitignore
-|4,39,1,0,1686132593,"~/.gitignore"
+|4,39,1,0,1686141797,"~/.gitignore"
 -'  1  0  ~/.gitignore
-|4,39,1,0,1686132593,"~/.gitignore"
+|4,39,1,0,1686141797,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1686141797,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1686141797,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1686141797,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1686141797,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
 
 > ~/myflask/Dockerfile
-	*	1686137084	0
-	"	10	0
+	*	1686163955	0
+	"	13	0
 	^	13	0
 	.	10	0
 	+	5	25
@@ -69,6 +263,21 @@
 	+	6	0
 	+	12	0
 	+	10	0
+
+> ~/Dockerfile
+	*	1686163565	0
+	"	7	17
+	^	7	18
+	.	7	17
+	+	2	23
+	+	7	17
+
+> ~/myflask/.gitignore
+	*	1686141866	0
+	"	3	0
+	^	3	0
+	.	2	4
+	+	2	4
 
 > ~/myflask/e2e/.gitignore
 	*	1686133595	0

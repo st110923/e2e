@@ -44,3 +44,62 @@ pip install --ugrade pip
 git clone https://github.com/st110923/e2e
 ls -a
 git status
+git clone  Permission denied
+git clone https://github.com/st110923/e2e
+git pull https://github.com/st110923/e2e
+git status
+git add --a
+git commit -m "Dockerfile"
+git push
+vim .gitignore
+git pull 
+git push
+\git push st110923
+git add --a
+git commit -m "gitignore"
+git config --global user.email st110923@student.spbu.ru
+git pull
+git push
+git remote add st110923 https://github.com/st110923/e2e
+git push st110923
+git push --set-upstream st110923 master
+git status
+git add env
+git commit -m "gitignore"
+git push
+cd myflask
+ls
+vim Dockerfile
+cat Dockerfile
+git status
+dit add --a
+git add --a
+git status
+git add --a
+git status
+git add --a
+git
+git add --a
+cd myflask
+git clone https://github.com/st110923/e2e
+git pull https://github.com/st110923/e2e
+git pull  Permission denied
+vim .gitignore
+vim Dockerfile
+git status
+git add --a
+cd myflask
+vim Dockerfile
+vim Dockerfile
+cd myflask
+vim Dockerfile
+git status
+git add Dockerfile
+git pull https://github.com/st110923/e2e
+git clone https://github.com/st110923/e2e
+git config --local user.name st110923
+cd myflask
+git cofig --local user.name st110923
+git config --local user.name st110923
+git config
+git status
