@@ -26,7 +26,6 @@ git commit -m  requirments
     MODEL_PATH = 'mlmodels/mymodel.pkl'
     SCALER_X_PATH = 'mlmodels/scaler_x.pkl'
     SCALER_Y_PATH = 'mlmodels/scaler_y.pkl'
-
     app = Flask(__name__)
     model = joblib.load(MODEL_PATH)
     sc_x = joblib.load(SCALER_X_PATH)
