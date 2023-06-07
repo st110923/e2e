@@ -33,3 +33,14 @@ cd myflask
 cd e2e
 cd gitignore
 vim .gitignore
+git init
+git pull https://github.com/st110923/e2e
+python3 -m venv env
+git status
+git add --a
+source env/bin/activate
+pip list
+pip install --ugrade pip
+git clone https://github.com/st110923/e2e
+ls -a
+git status
