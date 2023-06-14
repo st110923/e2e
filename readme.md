@@ -1,6 +1,10 @@
 ## Project report
 
-    We have data from Yandex.Realty classified https://realty.yandex.ru containing real estate listings for apartments in St. Petersburg and Leningrad Oblast from 2016 till the middle of August 2018. In this Lab you'll learn how to apply machine learning algorithms to solve business problems. Accurate price prediction can help to find fraudsters automatically and help Yandex.Realty users to make better decisions when buying and selling real estate.
+    We have data from Yandex.Realty classified https://realty.yandex.ru containing real estate listings
+    for apartments in St. Petersburg and Leningrad Oblast from 2016 till the middle of August 2018. 
+    In this Lab you'll learn how to apply machine learning algorithms to solve business problems. 
+    Accurate price prediction can help to find fraudsters automatically and help Yandex.Realty users 
+    to make better decisions when buying and selling real estate.
     
     
     ### Data description
