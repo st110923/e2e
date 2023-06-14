@@ -13,3 +13,23 @@
     
     The preproccessing includes spliting dataset to train and validation datasets and cleaning the data with NaN values.
     Pipeline includes standartization by StandardScaler.
+    
+   ## Model description
+  
+    I have tried the following models:
+    "  
+    "    DecisionTreeRegressor
+    "    LinearRegression
+    "    RandomForestRegressor
+    "    CatBoostRegressor
+    "    LGBMRegressor
+    "    ElasticNet.
+    "   
+    After comparison the mean prediction errors, the best model proved to be the LGBMRegressor.
+    I have trained this model using the following Hyperparameters, tested in the following ranges:
+  
+        num_leaves: [3, 20]
+        reg_alpha: [0.1, 0.5]
+        min_data_in_leaf: [30, 50, 100, 300]
+        lambda_l1: [0, 1, 1.5]
+        lambda_l2: [0, 1]
