@@ -7,7 +7,9 @@
     to make better decisions when buying and selling real estate.
     
     
-    ### Data description
+  ## Data description
+  
     The data I've used for prediction model includes such features as open_plan, rooms,  area,  renovation.
     
-    The preproccessing includes spliting dataset to train and validation datasets and cleaning the data with NaN values. Pipeline includes standartization by StandardScaler.
+    The preproccessing includes spliting dataset to train and validation datasets and cleaning the data with NaN values.
+    Pipeline includes standartization by StandardScaler.
